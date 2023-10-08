@@ -1,9 +1,11 @@
 package makechange;
 
+import java.util.Scanner;
+
 public class Register {
 
 	public static void main(String[] args) {
-		java.util.Scanner scanner = new java.util.Scanner(System.in);
+		Scanner scanner = new java.util.Scanner(System.in);
 
 		System.out.print("Enter Purchase Price: $");
 		double purchasePrice = scanner.nextDouble();
