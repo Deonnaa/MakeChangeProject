@@ -25,8 +25,8 @@ This Java program calculates the change to be given to a customer after a purcha
 - It calculates change and prints the results.
 
 ## Usage Examples
-- Amount: .67, Tendered: .50, Result: Error message
-- Amount: .67, Tendered: 1.00, Result: 1 quarter, 1 nickel, 3 pennies.
-- Amount: .59, Tendered: 1.00, Result: 1 quarter, 1 dime, 1 nickel, 1 penny.
-- Amount: 3.96, Tendered: 20.00, Result: 1 ten dollar bill, 1 five dollar bill, 1 one dollar bill, 4 pennies.
+- Amount: .67, Tendered: .50, Result: You are short: $0.17
+- Amount: .67, Tendered: 1.00, Result: You are owed: $0.33 Quarters: 1, Nickles: 1, Pennies: 3
+- Amount: .59, Tendered: 1.00, Result: You are owed: $0.41 Quarters: 1, Dimes: 1, Nickles: 1, Pennies: 1
+- Amount: 3.96, Tendered: 20.00, Result: You are owed: $16.04 Tens: 1, Fives: 1, Ones: 1, Pennies: 4
 
